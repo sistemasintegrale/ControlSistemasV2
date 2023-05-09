@@ -8,4 +8,16 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Guna.UI2.WinForms" Version="2.0.4.4" />
+    <PackageReference Include="MetroModernUI" Version="1.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Common\Common.csproj" />
+    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\Data.csproj" />
+    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\Entity.csproj" />
+    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\Logic.csproj" />
+  </ItemGroup>
+
 </Project>
