@@ -54,7 +54,7 @@ namespace ControlSistemasV2.Mantenimientos
             DataGridViewRow selectedRow = grdLista.Rows[index];
             var select = lista.Where(x=>x.IdSistema == Convert.ToInt32(selectedRow.Cells["IdSistema"].Value)).FirstOrDefault()!;
             select.Acceso = !select.Acceso;
-            bGeneral.EquipoSubSistemaModificar(select);
+            bGeneral.EquipoSubSistemaModificarDarAcceso(select);
             FrmManteEquipoSubSistemas_Load(sender, e);
         }
     }
