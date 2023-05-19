@@ -7,5 +7,20 @@
     <Compile Update="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Mantenimientos\FrmManteEquipos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mantenimientos\FrmManteEquipoSubSistemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mantenimientos\FrmManteSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mantenimientos\FrmManteSubSistema.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Mantenimientos\FrmVersiones.cs">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
 </Project>

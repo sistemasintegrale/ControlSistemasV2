@@ -62,6 +62,11 @@ D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\bin\Release\net6.0-wind
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\bin\Release\net6.0-windows\Logic.pdb
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.FrmControl.resources
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.csproj.CopyComplete
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteEquipos.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteEquipoSubSistemas.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteSistema.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteSubSistema.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmVersiones.resources
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\bin\Release\net6.0-windows\ControlSistemasV2.dll.manifest
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\bin\Release\net6.0-windows\ControlSistemasV2.application
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Release\net6.0-windows\ControlSistemasV2.dll.manifest

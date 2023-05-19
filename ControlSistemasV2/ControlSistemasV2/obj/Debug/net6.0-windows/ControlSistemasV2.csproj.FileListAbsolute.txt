@@ -62,3 +62,8 @@ D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-window
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ControlSistemasV2.pdb
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ControlSistemasV2.genruntimeconfig.cache
 D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ref\ControlSistemasV2.dll
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteSistema.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteSubSistema.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmVersiones.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteEquipos.resources
+D:\ControlSistemasV2\ControlSistemasV2\ControlSistemasV2\obj\Debug\net6.0-windows\ControlSistemasV2.Mantenimientos.FrmManteEquipoSubSistemas.resources

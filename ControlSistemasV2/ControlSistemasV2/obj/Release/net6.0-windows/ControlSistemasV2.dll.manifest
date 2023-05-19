@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
-  <asmv1:assemblyIdentity name="ControlSistemasV2.exe" version="1.0.0.1" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
+  <asmv1:assemblyIdentity name="ControlSistemasV2.exe" version="1.0.0.2" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
     <assemblyIdentity name="Launcher" version="7.0.0.0" language="neutral" processorArchitecture="msil" />
@@ -71,13 +71,13 @@
       <dsig:DigestValue>xj4fIDJesUDIdFBRuc5gIZnG+rxZNyvlCeGnqtEgcHk=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="ControlSistemasV2.dll" size="20480">
+  <file name="ControlSistemasV2.dll" size="44544">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>9jVgMWDMZftLYson3oe1/G+a8YWPmThclRYlisthqgo=</dsig:DigestValue>
+      <dsig:DigestValue>lDorUuxgCbJVsQqD1RKWt8QWcUb8Cg1PaeiLcttPfso=</dsig:DigestValue>
     </hash>
   </file>
   <file name="ControlSistemasV2.exe" size="147968">
@@ -104,16 +104,16 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>AH/9tf/hk6LBNYNVTOofurfQP6dj8ahYMZLn0hN51I8=</dsig:DigestValue>
+      <dsig:DigestValue>F53Lcw7bJWE3tdWNP1oWKMeUBwjX1TiISzemo7wyGZw=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Entity.dll" size="9216">
+  <file name="Entity.dll" size="11264">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>AhMrx8NkBO5ZJNHLLBxFK70IKdcNorbMB8fDSE2daJ0=</dsig:DigestValue>
+      <dsig:DigestValue>tvCdFG/HLq7hZOaAuNJJsdz0a552qIoOwNV54v5jVnk=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Guna.UI2.dll" size="2087304">
@@ -125,13 +125,13 @@
       <dsig:DigestValue>qQrvNjJLtitwf8X48ZbDmWEZbZGSUS6N8k0nGrM9Wqo=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="Logic.dll" size="7168">
+  <file name="Logic.dll" size="7680">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>wNNJciGb6tmjlagWJbRR5/dWoedRWc7oElNoazq9Sxk=</dsig:DigestValue>
+      <dsig:DigestValue>NT6N+zQ1XrawlEX2ld1AYPvyF/JPgbva2hJ92CS6ZFg=</dsig:DigestValue>
     </hash>
   </file>
   <file name="MetroFramework.Design.dll" size="16896">
