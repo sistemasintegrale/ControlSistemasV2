@@ -5,13 +5,13 @@ VisualStudioVersion = 17.4.33403.182
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlSistemasV2", "ControlSistemasV2\ControlSistemasV2.csproj", "{F3ECBC71-9F10-4DAD-98FC-22C2880A51E9}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\Logic.csproj", "{5E905E38-FB30-4434-A806-D8C05A6E9755}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Logic", "..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\Logic.csproj", "{5E905E38-FB30-4434-A806-D8C05A6E9755}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\Entity.csproj", "{69B5D647-2DA0-49F0-934A-4AEB32637A1F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Entity", "..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\Entity.csproj", "{69B5D647-2DA0-49F0-934A-4AEB32637A1F}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\Data.csproj", "{8D6190FA-F41F-4EB9-A47E-1ED6CDBA1C0B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Data", "..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Data\Data.csproj", "{8D6190FA-F41F-4EB9-A47E-1ED6CDBA1C0B}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Common\Common.csproj", "{6F3244CB-D47A-4D2F-AD0B-6BE9ECCEBB3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Common", "..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Common\Common.csproj", "{6F3244CB-D47A-4D2F-AD0B-6BE9ECCEBB3F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

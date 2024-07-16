@@ -14,10 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Common\Common.csproj" />
-    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Data\Data.csproj" />
-    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\Entity.csproj" />
-    <ProjectReference Include="..\..\..\ACTUALIZADORSUBSISTEMAS\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\Logic.csproj" />
+    <ProjectReference Include="..\..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Common\Common.csproj" />
+    <ProjectReference Include="..\..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Data\Data.csproj" />
+    <ProjectReference Include="..\..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Entity\Entity.csproj" />
+    <ProjectReference Include="..\..\..\ActualizadorSubSistemas\ActualizarSubSistemas\Logic\Logic.csproj" />
   </ItemGroup>
 
 </Project>

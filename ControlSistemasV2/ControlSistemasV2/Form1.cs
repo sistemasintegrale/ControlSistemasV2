@@ -160,13 +160,22 @@ namespace ControlSistemasV2
             int index = grdEquipos.SelectedCells[0].RowIndex;
             DataGridViewRow selectedRow = grdEquipos.Rows[index];
             FrmManteEquipos frm = new FrmManteEquipos();
-            frm.equipo = equipos.Where(x=>x.Id== Convert.ToInt32(selectedRow.Cells["Id"].Value)).FirstOrDefault()!;
+            frm.equipo = equipos.Where(x => x.Id == Convert.ToInt32(selectedRow.Cells["Id"].Value)).FirstOrDefault()!;
             frm.Text = $"Mantenimiento {frm.equipo.Nombre}";
             if (frm.ShowDialog() == DialogResult.OK)
             {
                 limpiarGrds();
                 cargar();
             }
+        }
+
+        private void btnJabsa_Click(object sender, EventArgs e)
+        {
+            limpiarGrds();
+            Constantes.Connection = Constantes.ConnJabsa;
+            this.Text = btnJabsa.Text;
+            this.Refresh();
+            cargar();
         }
     }
 }

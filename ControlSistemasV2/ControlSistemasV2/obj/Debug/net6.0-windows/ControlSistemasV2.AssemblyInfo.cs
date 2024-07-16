@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ControlSistemasV2")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dede28d28b9554afcf4848ea51f24ae35c3c35d0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ControlSistemasV2")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ControlSistemasV2")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

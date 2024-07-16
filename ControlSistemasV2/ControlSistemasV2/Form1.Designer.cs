@@ -28,363 +28,381 @@
         /// </summary>
         private void InitializeComponent()
         {
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges5 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges6 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges3 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges4 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle5 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle6 = new DataGridViewCellStyle();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges1 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
             Guna.UI2.WinForms.Suite.CustomizableEdges customizableEdges2 = new Guna.UI2.WinForms.Suite.CustomizableEdges();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
-            this.btnJaguar = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
-            this.tabPage1 = new System.Windows.Forms.TabPage();
-            this.spiner2 = new MetroFramework.Controls.MetroProgressSpinner();
-            this.grdEquipos = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.mmenuEquipos = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.modificarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.tabPage2 = new System.Windows.Forms.TabPage();
-            this.spiner1 = new MetroFramework.Controls.MetroProgressSpinner();
-            this.grdSistemas = new Guna.UI2.WinForms.Guna2DataGridView();
-            this.mmenuSistemas = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
-            this.nuevoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.versionesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.modificarToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.guna2GroupBox1.SuspendLayout();
-            this.guna2TabControl1.SuspendLayout();
-            this.tabPage1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdEquipos)).BeginInit();
-            this.mmenuEquipos.SuspendLayout();
-            this.tabPage2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.grdSistemas)).BeginInit();
-            this.mmenuSistemas.SuspendLayout();
-            this.SuspendLayout();
+            guna2GroupBox1 = new Guna.UI2.WinForms.Guna2GroupBox();
+            btnJaguar = new Guna.UI2.WinForms.Guna2Button();
+            guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
+            tabPage1 = new TabPage();
+            spiner2 = new MetroFramework.Controls.MetroProgressSpinner();
+            grdEquipos = new Guna.UI2.WinForms.Guna2DataGridView();
+            mmenuEquipos = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            modificarToolStripMenuItem = new ToolStripMenuItem();
+            modificarToolStripMenuItem2 = new ToolStripMenuItem();
+            tabPage2 = new TabPage();
+            spiner1 = new MetroFramework.Controls.MetroProgressSpinner();
+            grdSistemas = new Guna.UI2.WinForms.Guna2DataGridView();
+            mmenuSistemas = new Guna.UI2.WinForms.Guna2ContextMenuStrip();
+            nuevoToolStripMenuItem1 = new ToolStripMenuItem();
+            modificarToolStripMenuItem1 = new ToolStripMenuItem();
+            versionesToolStripMenuItem = new ToolStripMenuItem();
+            btnJabsa = new Guna.UI2.WinForms.Guna2Button();
+            guna2GroupBox1.SuspendLayout();
+            guna2TabControl1.SuspendLayout();
+            tabPage1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grdEquipos).BeginInit();
+            mmenuEquipos.SuspendLayout();
+            tabPage2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)grdSistemas).BeginInit();
+            mmenuSistemas.SuspendLayout();
+            SuspendLayout();
             // 
             // guna2GroupBox1
             // 
-            this.guna2GroupBox1.Controls.Add(this.btnJaguar);
-            this.guna2GroupBox1.CustomizableEdges = customizableEdges3;
-            this.guna2GroupBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2GroupBox1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2GroupBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(137)))), ((int)(((byte)(149)))));
-            this.guna2GroupBox1.Location = new System.Drawing.Point(20, 60);
-            this.guna2GroupBox1.Name = "guna2GroupBox1";
-            this.guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges4;
-            this.guna2GroupBox1.Size = new System.Drawing.Size(209, 370);
-            this.guna2GroupBox1.TabIndex = 0;
-            this.guna2GroupBox1.Text = "Empresas";
+            guna2GroupBox1.Controls.Add(btnJabsa);
+            guna2GroupBox1.Controls.Add(btnJaguar);
+            guna2GroupBox1.CustomizableEdges = customizableEdges5;
+            guna2GroupBox1.Dock = DockStyle.Left;
+            guna2GroupBox1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2GroupBox1.ForeColor = Color.FromArgb(125, 137, 149);
+            guna2GroupBox1.Location = new Point(20, 60);
+            guna2GroupBox1.Name = "guna2GroupBox1";
+            guna2GroupBox1.ShadowDecoration.CustomizableEdges = customizableEdges6;
+            guna2GroupBox1.Size = new Size(209, 370);
+            guna2GroupBox1.TabIndex = 0;
+            guna2GroupBox1.Text = "Empresas";
             // 
             // btnJaguar
             // 
-            this.btnJaguar.Animated = true;
-            this.btnJaguar.AnimatedGIF = true;
-            this.btnJaguar.CustomizableEdges = customizableEdges1;
-            this.btnJaguar.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.btnJaguar.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.btnJaguar.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.btnJaguar.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.btnJaguar.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnJaguar.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.btnJaguar.ForeColor = System.Drawing.Color.White;
-            this.btnJaguar.Location = new System.Drawing.Point(0, 40);
-            this.btnJaguar.Name = "btnJaguar";
-            this.btnJaguar.ShadowDecoration.CustomizableEdges = customizableEdges2;
-            this.btnJaguar.Size = new System.Drawing.Size(209, 45);
-            this.btnJaguar.TabIndex = 0;
-            this.btnJaguar.Text = "Calzados Jaguar ";
-            this.btnJaguar.Click += new System.EventHandler(this.btnEmpresas_Click);
+            btnJaguar.Animated = true;
+            btnJaguar.AnimatedGIF = true;
+            btnJaguar.CustomizableEdges = customizableEdges3;
+            btnJaguar.DisabledState.BorderColor = Color.DarkGray;
+            btnJaguar.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnJaguar.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnJaguar.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnJaguar.Dock = DockStyle.Top;
+            btnJaguar.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnJaguar.ForeColor = Color.White;
+            btnJaguar.Location = new Point(0, 40);
+            btnJaguar.Name = "btnJaguar";
+            btnJaguar.ShadowDecoration.CustomizableEdges = customizableEdges4;
+            btnJaguar.Size = new Size(209, 45);
+            btnJaguar.TabIndex = 0;
+            btnJaguar.Text = "Calzados Jaguar ";
+            btnJaguar.Click += btnEmpresas_Click;
             // 
             // guna2TabControl1
             // 
-            this.guna2TabControl1.Controls.Add(this.tabPage1);
-            this.guna2TabControl1.Controls.Add(this.tabPage2);
-            this.guna2TabControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2TabControl1.ItemSize = new System.Drawing.Size(180, 40);
-            this.guna2TabControl1.Location = new System.Drawing.Point(229, 60);
-            this.guna2TabControl1.Name = "guna2TabControl1";
-            this.guna2TabControl1.SelectedIndex = 0;
-            this.guna2TabControl1.Size = new System.Drawing.Size(689, 370);
-            this.guna2TabControl1.TabButtonHoverState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonHoverState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.guna2TabControl1.TabButtonHoverState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TabControl1.TabButtonHoverState.ForeColor = System.Drawing.Color.White;
-            this.guna2TabControl1.TabButtonHoverState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(52)))), ((int)(((byte)(70)))));
-            this.guna2TabControl1.TabButtonIdleState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2TabControl1.TabButtonIdleState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TabControl1.TabButtonIdleState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(160)))), ((int)(((byte)(167)))));
-            this.guna2TabControl1.TabButtonIdleState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2TabControl1.TabButtonSelectedState.BorderColor = System.Drawing.Color.Empty;
-            this.guna2TabControl1.TabButtonSelectedState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(29)))), ((int)(((byte)(37)))), ((int)(((byte)(49)))));
-            this.guna2TabControl1.TabButtonSelectedState.Font = new System.Drawing.Font("Segoe UI Semibold", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.guna2TabControl1.TabButtonSelectedState.ForeColor = System.Drawing.Color.White;
-            this.guna2TabControl1.TabButtonSelectedState.InnerColor = System.Drawing.Color.FromArgb(((int)(((byte)(76)))), ((int)(((byte)(132)))), ((int)(((byte)(255)))));
-            this.guna2TabControl1.TabButtonSize = new System.Drawing.Size(180, 40);
-            this.guna2TabControl1.TabIndex = 1;
-            this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
-            this.guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
+            guna2TabControl1.Controls.Add(tabPage1);
+            guna2TabControl1.Controls.Add(tabPage2);
+            guna2TabControl1.Dock = DockStyle.Fill;
+            guna2TabControl1.ItemSize = new Size(180, 40);
+            guna2TabControl1.Location = new Point(229, 60);
+            guna2TabControl1.Name = "guna2TabControl1";
+            guna2TabControl1.SelectedIndex = 0;
+            guna2TabControl1.Size = new Size(689, 370);
+            guna2TabControl1.TabButtonHoverState.BorderColor = Color.Empty;
+            guna2TabControl1.TabButtonHoverState.FillColor = Color.FromArgb(40, 52, 70);
+            guna2TabControl1.TabButtonHoverState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2TabControl1.TabButtonHoverState.ForeColor = Color.White;
+            guna2TabControl1.TabButtonHoverState.InnerColor = Color.FromArgb(40, 52, 70);
+            guna2TabControl1.TabButtonIdleState.BorderColor = Color.Empty;
+            guna2TabControl1.TabButtonIdleState.FillColor = Color.FromArgb(33, 42, 57);
+            guna2TabControl1.TabButtonIdleState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2TabControl1.TabButtonIdleState.ForeColor = Color.FromArgb(156, 160, 167);
+            guna2TabControl1.TabButtonIdleState.InnerColor = Color.FromArgb(33, 42, 57);
+            guna2TabControl1.TabButtonSelectedState.BorderColor = Color.Empty;
+            guna2TabControl1.TabButtonSelectedState.FillColor = Color.FromArgb(29, 37, 49);
+            guna2TabControl1.TabButtonSelectedState.Font = new Font("Segoe UI Semibold", 10F, FontStyle.Regular, GraphicsUnit.Point);
+            guna2TabControl1.TabButtonSelectedState.ForeColor = Color.White;
+            guna2TabControl1.TabButtonSelectedState.InnerColor = Color.FromArgb(76, 132, 255);
+            guna2TabControl1.TabButtonSize = new Size(180, 40);
+            guna2TabControl1.TabIndex = 1;
+            guna2TabControl1.TabMenuBackColor = Color.FromArgb(33, 42, 57);
+            guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalTop;
             // 
             // tabPage1
             // 
-            this.tabPage1.Controls.Add(this.spiner2);
-            this.tabPage1.Controls.Add(this.grdEquipos);
-            this.tabPage1.Location = new System.Drawing.Point(4, 44);
-            this.tabPage1.Name = "tabPage1";
-            this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage1.Size = new System.Drawing.Size(681, 322);
-            this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Equipos";
-            this.tabPage1.UseVisualStyleBackColor = true;
+            tabPage1.Controls.Add(spiner2);
+            tabPage1.Controls.Add(grdEquipos);
+            tabPage1.Location = new Point(4, 44);
+            tabPage1.Name = "tabPage1";
+            tabPage1.Padding = new Padding(3);
+            tabPage1.Size = new Size(681, 322);
+            tabPage1.TabIndex = 0;
+            tabPage1.Text = "Equipos";
+            tabPage1.UseVisualStyleBackColor = true;
             // 
             // spiner2
             // 
-            this.spiner2.Location = new System.Drawing.Point(290, 111);
-            this.spiner2.Maximum = 100;
-            this.spiner2.Name = "spiner2";
-            this.spiner2.Size = new System.Drawing.Size(100, 100);
-            this.spiner2.Style = MetroFramework.MetroColorStyle.Green;
-            this.spiner2.TabIndex = 2;
-            this.spiner2.Text = "metroProgressSpinner1";
-            this.spiner2.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.spiner2.UseSelectable = true;
-            this.spiner2.Value = 10;
+            spiner2.Location = new Point(290, 111);
+            spiner2.Maximum = 100;
+            spiner2.Name = "spiner2";
+            spiner2.Size = new Size(100, 100);
+            spiner2.Style = MetroFramework.MetroColorStyle.Green;
+            spiner2.TabIndex = 2;
+            spiner2.Text = "metroProgressSpinner1";
+            spiner2.Theme = MetroFramework.MetroThemeStyle.Light;
+            spiner2.UseSelectable = true;
+            spiner2.Value = 10;
             // 
             // grdEquipos
             // 
-            this.grdEquipos.AllowUserToAddRows = false;
-            this.grdEquipos.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.grdEquipos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdEquipos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.grdEquipos.ColumnHeadersHeight = 17;
-            this.grdEquipos.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdEquipos.ContextMenuStrip = this.mmenuEquipos;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdEquipos.DefaultCellStyle = dataGridViewCellStyle3;
-            this.grdEquipos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdEquipos.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdEquipos.Location = new System.Drawing.Point(3, 3);
-            this.grdEquipos.Name = "grdEquipos";
-            this.grdEquipos.ReadOnly = true;
-            this.grdEquipos.RowHeadersVisible = false;
-            this.grdEquipos.RowTemplate.Height = 25;
-            this.grdEquipos.Size = new System.Drawing.Size(675, 316);
-            this.grdEquipos.TabIndex = 0;
-            this.grdEquipos.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdEquipos.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.grdEquipos.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.grdEquipos.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.grdEquipos.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.grdEquipos.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.grdEquipos.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdEquipos.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.grdEquipos.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.grdEquipos.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdEquipos.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.grdEquipos.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdEquipos.ThemeStyle.HeaderStyle.Height = 17;
-            this.grdEquipos.ThemeStyle.ReadOnly = true;
-            this.grdEquipos.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdEquipos.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.grdEquipos.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdEquipos.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.grdEquipos.ThemeStyle.RowsStyle.Height = 25;
-            this.grdEquipos.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdEquipos.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            grdEquipos.AllowUserToAddRows = false;
+            grdEquipos.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle1.BackColor = Color.White;
+            grdEquipos.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.True;
+            grdEquipos.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            grdEquipos.ColumnHeadersHeight = 17;
+            grdEquipos.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdEquipos.ContextMenuStrip = mmenuEquipos;
+            dataGridViewCellStyle3.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = Color.White;
+            dataGridViewCellStyle3.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle3.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle3.WrapMode = DataGridViewTriState.False;
+            grdEquipos.DefaultCellStyle = dataGridViewCellStyle3;
+            grdEquipos.Dock = DockStyle.Fill;
+            grdEquipos.GridColor = Color.FromArgb(231, 229, 255);
+            grdEquipos.Location = new Point(3, 3);
+            grdEquipos.Name = "grdEquipos";
+            grdEquipos.ReadOnly = true;
+            grdEquipos.RowHeadersVisible = false;
+            grdEquipos.RowTemplate.Height = 25;
+            grdEquipos.Size = new Size(675, 316);
+            grdEquipos.TabIndex = 0;
+            grdEquipos.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            grdEquipos.ThemeStyle.AlternatingRowsStyle.Font = null;
+            grdEquipos.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            grdEquipos.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            grdEquipos.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            grdEquipos.ThemeStyle.BackColor = Color.White;
+            grdEquipos.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            grdEquipos.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            grdEquipos.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            grdEquipos.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdEquipos.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            grdEquipos.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdEquipos.ThemeStyle.HeaderStyle.Height = 17;
+            grdEquipos.ThemeStyle.ReadOnly = true;
+            grdEquipos.ThemeStyle.RowsStyle.BackColor = Color.White;
+            grdEquipos.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            grdEquipos.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdEquipos.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            grdEquipos.ThemeStyle.RowsStyle.Height = 25;
+            grdEquipos.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            grdEquipos.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
             // 
             // mmenuEquipos
             // 
-            this.mmenuEquipos.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.modificarToolStripMenuItem,
-            this.modificarToolStripMenuItem2});
-            this.mmenuEquipos.Name = "mmenuEquipos";
-            this.mmenuEquipos.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.mmenuEquipos.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
-            this.mmenuEquipos.RenderStyle.ColorTable = null;
-            this.mmenuEquipos.RenderStyle.RoundedEdges = true;
-            this.mmenuEquipos.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
-            this.mmenuEquipos.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.mmenuEquipos.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.mmenuEquipos.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
-            this.mmenuEquipos.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.mmenuEquipos.Size = new System.Drawing.Size(181, 70);
+            mmenuEquipos.Items.AddRange(new ToolStripItem[] { modificarToolStripMenuItem, modificarToolStripMenuItem2 });
+            mmenuEquipos.Name = "mmenuEquipos";
+            mmenuEquipos.RenderStyle.ArrowColor = Color.FromArgb(151, 143, 255);
+            mmenuEquipos.RenderStyle.BorderColor = Color.Gainsboro;
+            mmenuEquipos.RenderStyle.ColorTable = null;
+            mmenuEquipos.RenderStyle.RoundedEdges = true;
+            mmenuEquipos.RenderStyle.SelectionArrowColor = Color.White;
+            mmenuEquipos.RenderStyle.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            mmenuEquipos.RenderStyle.SelectionForeColor = Color.White;
+            mmenuEquipos.RenderStyle.SeparatorColor = Color.Gainsboro;
+            mmenuEquipos.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            mmenuEquipos.Size = new Size(137, 48);
             // 
             // modificarToolStripMenuItem
             // 
-            this.modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
-            this.modificarToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.modificarToolStripMenuItem.Text = "Ver Accesos";
-            this.modificarToolStripMenuItem.Click += new System.EventHandler(this.modificarToolStripMenuItem_Click);
-            // 
-            // tabPage2
-            // 
-            this.tabPage2.Controls.Add(this.spiner1);
-            this.tabPage2.Controls.Add(this.grdSistemas);
-            this.tabPage2.Location = new System.Drawing.Point(4, 44);
-            this.tabPage2.Name = "tabPage2";
-            this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
-            this.tabPage2.Size = new System.Drawing.Size(681, 322);
-            this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Sistemas";
-            this.tabPage2.UseVisualStyleBackColor = true;
-            // 
-            // spiner1
-            // 
-            this.spiner1.Location = new System.Drawing.Point(290, 111);
-            this.spiner1.Maximum = 100;
-            this.spiner1.Name = "spiner1";
-            this.spiner1.Size = new System.Drawing.Size(100, 100);
-            this.spiner1.Style = MetroFramework.MetroColorStyle.Green;
-            this.spiner1.TabIndex = 2;
-            this.spiner1.Text = "metroProgressSpinner1";
-            this.spiner1.Theme = MetroFramework.MetroThemeStyle.Light;
-            this.spiner1.UseSelectable = true;
-            this.spiner1.Value = 10;
-            // 
-            // grdSistemas
-            // 
-            this.grdSistemas.AllowUserToAddRows = false;
-            this.grdSistemas.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.grdSistemas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
-            this.grdSistemas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.grdSistemas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.grdSistemas.ColumnHeadersHeight = 17;
-            this.grdSistemas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdSistemas.ContextMenuStrip = this.mmenuSistemas;
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.grdSistemas.DefaultCellStyle = dataGridViewCellStyle6;
-            this.grdSistemas.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.grdSistemas.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdSistemas.Location = new System.Drawing.Point(3, 3);
-            this.grdSistemas.MultiSelect = false;
-            this.grdSistemas.Name = "grdSistemas";
-            this.grdSistemas.ReadOnly = true;
-            this.grdSistemas.RowHeadersVisible = false;
-            this.grdSistemas.RowTemplate.Height = 25;
-            this.grdSistemas.RowTemplate.ReadOnly = true;
-            this.grdSistemas.Size = new System.Drawing.Size(675, 316);
-            this.grdSistemas.TabIndex = 0;
-            this.grdSistemas.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdSistemas.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.grdSistemas.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.grdSistemas.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.grdSistemas.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.grdSistemas.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.grdSistemas.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdSistemas.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.grdSistemas.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.grdSistemas.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdSistemas.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.grdSistemas.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.grdSistemas.ThemeStyle.HeaderStyle.Height = 17;
-            this.grdSistemas.ThemeStyle.ReadOnly = true;
-            this.grdSistemas.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.grdSistemas.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.grdSistemas.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.grdSistemas.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.grdSistemas.ThemeStyle.RowsStyle.Height = 25;
-            this.grdSistemas.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.grdSistemas.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            // 
-            // mmenuSistemas
-            // 
-            this.mmenuSistemas.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.nuevoToolStripMenuItem1,
-            this.modificarToolStripMenuItem1,
-            this.versionesToolStripMenuItem});
-            this.mmenuSistemas.Name = "mmenuSistemas";
-            this.mmenuSistemas.RenderStyle.ArrowColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.mmenuSistemas.RenderStyle.BorderColor = System.Drawing.Color.Gainsboro;
-            this.mmenuSistemas.RenderStyle.ColorTable = null;
-            this.mmenuSistemas.RenderStyle.RoundedEdges = true;
-            this.mmenuSistemas.RenderStyle.SelectionArrowColor = System.Drawing.Color.White;
-            this.mmenuSistemas.RenderStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.mmenuSistemas.RenderStyle.SelectionForeColor = System.Drawing.Color.White;
-            this.mmenuSistemas.RenderStyle.SeparatorColor = System.Drawing.Color.Gainsboro;
-            this.mmenuSistemas.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
-            this.mmenuSistemas.Size = new System.Drawing.Size(126, 70);
-            // 
-            // nuevoToolStripMenuItem1
-            // 
-            this.nuevoToolStripMenuItem1.Name = "nuevoToolStripMenuItem1";
-            this.nuevoToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
-            this.nuevoToolStripMenuItem1.Text = "Nuevo";
-            this.nuevoToolStripMenuItem1.Click += new System.EventHandler(this.nuevoToolStripMenuItem1_Click);
-            // 
-            // modificarToolStripMenuItem1
-            // 
-            this.modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
-            this.modificarToolStripMenuItem1.Size = new System.Drawing.Size(125, 22);
-            this.modificarToolStripMenuItem1.Text = "Modificar";
-            this.modificarToolStripMenuItem1.Click += new System.EventHandler(this.modificarToolStripMenuItem1_Click);
-            // 
-            // versionesToolStripMenuItem
-            // 
-            this.versionesToolStripMenuItem.Name = "versionesToolStripMenuItem";
-            this.versionesToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
-            this.versionesToolStripMenuItem.Text = "Versiones";
-            this.versionesToolStripMenuItem.Click += new System.EventHandler(this.versionesToolStripMenuItem_Click);
+            modificarToolStripMenuItem.Name = "modificarToolStripMenuItem";
+            modificarToolStripMenuItem.Size = new Size(136, 22);
+            modificarToolStripMenuItem.Text = "Ver Accesos";
+            modificarToolStripMenuItem.Click += modificarToolStripMenuItem_Click;
             // 
             // modificarToolStripMenuItem2
             // 
-            this.modificarToolStripMenuItem2.Name = "modificarToolStripMenuItem2";
-            this.modificarToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
-            this.modificarToolStripMenuItem2.Text = "Modificar";
-            this.modificarToolStripMenuItem2.Click += new System.EventHandler(this.modificarToolStripMenuItem2_Click);
+            modificarToolStripMenuItem2.Name = "modificarToolStripMenuItem2";
+            modificarToolStripMenuItem2.Size = new Size(136, 22);
+            modificarToolStripMenuItem2.Text = "Modificar";
+            modificarToolStripMenuItem2.Click += modificarToolStripMenuItem2_Click;
+            // 
+            // tabPage2
+            // 
+            tabPage2.Controls.Add(spiner1);
+            tabPage2.Controls.Add(grdSistemas);
+            tabPage2.Location = new Point(4, 44);
+            tabPage2.Name = "tabPage2";
+            tabPage2.Padding = new Padding(3);
+            tabPage2.Size = new Size(681, 322);
+            tabPage2.TabIndex = 1;
+            tabPage2.Text = "Sistemas";
+            tabPage2.UseVisualStyleBackColor = true;
+            // 
+            // spiner1
+            // 
+            spiner1.Location = new Point(290, 111);
+            spiner1.Maximum = 100;
+            spiner1.Name = "spiner1";
+            spiner1.Size = new Size(100, 100);
+            spiner1.Style = MetroFramework.MetroColorStyle.Green;
+            spiner1.TabIndex = 2;
+            spiner1.Text = "metroProgressSpinner1";
+            spiner1.Theme = MetroFramework.MetroThemeStyle.Light;
+            spiner1.UseSelectable = true;
+            spiner1.Value = 10;
+            // 
+            // grdSistemas
+            // 
+            grdSistemas.AllowUserToAddRows = false;
+            grdSistemas.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle4.BackColor = Color.White;
+            grdSistemas.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            grdSistemas.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.None;
+            dataGridViewCellStyle5.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = Color.FromArgb(100, 88, 255);
+            dataGridViewCellStyle5.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle5.ForeColor = Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = DataGridViewTriState.True;
+            grdSistemas.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            grdSistemas.ColumnHeadersHeight = 17;
+            grdSistemas.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdSistemas.ContextMenuStrip = mmenuSistemas;
+            dataGridViewCellStyle6.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = Color.White;
+            dataGridViewCellStyle6.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle6.ForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            dataGridViewCellStyle6.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            dataGridViewCellStyle6.WrapMode = DataGridViewTriState.False;
+            grdSistemas.DefaultCellStyle = dataGridViewCellStyle6;
+            grdSistemas.Dock = DockStyle.Fill;
+            grdSistemas.GridColor = Color.FromArgb(231, 229, 255);
+            grdSistemas.Location = new Point(3, 3);
+            grdSistemas.MultiSelect = false;
+            grdSistemas.Name = "grdSistemas";
+            grdSistemas.ReadOnly = true;
+            grdSistemas.RowHeadersVisible = false;
+            grdSistemas.RowTemplate.Height = 25;
+            grdSistemas.RowTemplate.ReadOnly = true;
+            grdSistemas.Size = new Size(675, 316);
+            grdSistemas.TabIndex = 0;
+            grdSistemas.ThemeStyle.AlternatingRowsStyle.BackColor = Color.White;
+            grdSistemas.ThemeStyle.AlternatingRowsStyle.Font = null;
+            grdSistemas.ThemeStyle.AlternatingRowsStyle.ForeColor = Color.Empty;
+            grdSistemas.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = Color.Empty;
+            grdSistemas.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = Color.Empty;
+            grdSistemas.ThemeStyle.BackColor = Color.White;
+            grdSistemas.ThemeStyle.GridColor = Color.FromArgb(231, 229, 255);
+            grdSistemas.ThemeStyle.HeaderStyle.BackColor = Color.FromArgb(100, 88, 255);
+            grdSistemas.ThemeStyle.HeaderStyle.BorderStyle = DataGridViewHeaderBorderStyle.None;
+            grdSistemas.ThemeStyle.HeaderStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdSistemas.ThemeStyle.HeaderStyle.ForeColor = Color.White;
+            grdSistemas.ThemeStyle.HeaderStyle.HeaightSizeMode = DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            grdSistemas.ThemeStyle.HeaderStyle.Height = 17;
+            grdSistemas.ThemeStyle.ReadOnly = true;
+            grdSistemas.ThemeStyle.RowsStyle.BackColor = Color.White;
+            grdSistemas.ThemeStyle.RowsStyle.BorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            grdSistemas.ThemeStyle.RowsStyle.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            grdSistemas.ThemeStyle.RowsStyle.ForeColor = Color.FromArgb(71, 69, 94);
+            grdSistemas.ThemeStyle.RowsStyle.Height = 25;
+            grdSistemas.ThemeStyle.RowsStyle.SelectionBackColor = Color.FromArgb(231, 229, 255);
+            grdSistemas.ThemeStyle.RowsStyle.SelectionForeColor = Color.FromArgb(71, 69, 94);
+            // 
+            // mmenuSistemas
+            // 
+            mmenuSistemas.Items.AddRange(new ToolStripItem[] { nuevoToolStripMenuItem1, modificarToolStripMenuItem1, versionesToolStripMenuItem });
+            mmenuSistemas.Name = "mmenuSistemas";
+            mmenuSistemas.RenderStyle.ArrowColor = Color.FromArgb(151, 143, 255);
+            mmenuSistemas.RenderStyle.BorderColor = Color.Gainsboro;
+            mmenuSistemas.RenderStyle.ColorTable = null;
+            mmenuSistemas.RenderStyle.RoundedEdges = true;
+            mmenuSistemas.RenderStyle.SelectionArrowColor = Color.White;
+            mmenuSistemas.RenderStyle.SelectionBackColor = Color.FromArgb(100, 88, 255);
+            mmenuSistemas.RenderStyle.SelectionForeColor = Color.White;
+            mmenuSistemas.RenderStyle.SeparatorColor = Color.Gainsboro;
+            mmenuSistemas.RenderStyle.TextRenderingHint = System.Drawing.Text.TextRenderingHint.SystemDefault;
+            mmenuSistemas.Size = new Size(126, 70);
+            // 
+            // nuevoToolStripMenuItem1
+            // 
+            nuevoToolStripMenuItem1.Name = "nuevoToolStripMenuItem1";
+            nuevoToolStripMenuItem1.Size = new Size(125, 22);
+            nuevoToolStripMenuItem1.Text = "Nuevo";
+            nuevoToolStripMenuItem1.Click += nuevoToolStripMenuItem1_Click;
+            // 
+            // modificarToolStripMenuItem1
+            // 
+            modificarToolStripMenuItem1.Name = "modificarToolStripMenuItem1";
+            modificarToolStripMenuItem1.Size = new Size(125, 22);
+            modificarToolStripMenuItem1.Text = "Modificar";
+            modificarToolStripMenuItem1.Click += modificarToolStripMenuItem1_Click;
+            // 
+            // versionesToolStripMenuItem
+            // 
+            versionesToolStripMenuItem.Name = "versionesToolStripMenuItem";
+            versionesToolStripMenuItem.Size = new Size(125, 22);
+            versionesToolStripMenuItem.Text = "Versiones";
+            versionesToolStripMenuItem.Click += versionesToolStripMenuItem_Click;
+            // 
+            // btnJabsa
+            // 
+            btnJabsa.Animated = true;
+            btnJabsa.AnimatedGIF = true;
+            btnJabsa.CustomizableEdges = customizableEdges1;
+            btnJabsa.DisabledState.BorderColor = Color.DarkGray;
+            btnJabsa.DisabledState.CustomBorderColor = Color.DarkGray;
+            btnJabsa.DisabledState.FillColor = Color.FromArgb(169, 169, 169);
+            btnJabsa.DisabledState.ForeColor = Color.FromArgb(141, 141, 141);
+            btnJabsa.Dock = DockStyle.Top;
+            btnJabsa.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            btnJabsa.ForeColor = Color.White;
+            btnJabsa.Location = new Point(0, 85);
+            btnJabsa.Name = "btnJabsa";
+            btnJabsa.ShadowDecoration.CustomizableEdges = customizableEdges2;
+            btnJabsa.Size = new Size(209, 45);
+            btnJabsa.TabIndex = 1;
+            btnJabsa.Text = "Jabsa";
+            btnJabsa.Click += btnJabsa_Click;
             // 
             // FrmControl
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(938, 450);
-            this.Controls.Add(this.guna2TabControl1);
-            this.Controls.Add(this.guna2GroupBox1);
-            this.Name = "FrmControl";
-            this.Resizable = false;
-            this.Text = "Form1";
-            this.TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
-            this.Load += new System.EventHandler(this.FrmControl_Load);
-            this.guna2GroupBox1.ResumeLayout(false);
-            this.guna2TabControl1.ResumeLayout(false);
-            this.tabPage1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grdEquipos)).EndInit();
-            this.mmenuEquipos.ResumeLayout(false);
-            this.tabPage2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.grdSistemas)).EndInit();
-            this.mmenuSistemas.ResumeLayout(false);
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(938, 450);
+            Controls.Add(guna2TabControl1);
+            Controls.Add(guna2GroupBox1);
+            Name = "FrmControl";
+            Resizable = false;
+            Text = "Form1";
+            TextAlign = MetroFramework.Forms.MetroFormTextAlign.Center;
+            Load += FrmControl_Load;
+            guna2GroupBox1.ResumeLayout(false);
+            guna2TabControl1.ResumeLayout(false);
+            tabPage1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grdEquipos).EndInit();
+            mmenuEquipos.ResumeLayout(false);
+            tabPage2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)grdSistemas).EndInit();
+            mmenuSistemas.ResumeLayout(false);
+            ResumeLayout(false);
         }
 
         #endregion
@@ -405,5 +423,6 @@
         private ToolStripMenuItem modificarToolStripMenuItem1;
         private ToolStripMenuItem versionesToolStripMenuItem;
         private ToolStripMenuItem modificarToolStripMenuItem2;
+        private Guna.UI2.WinForms.Guna2Button btnJabsa;
     }
 }

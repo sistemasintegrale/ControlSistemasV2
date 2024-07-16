@@ -1,0 +1,109 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ControlSistemasV2\\ControlSistemasV2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6F3244CB-D47A-4D2F-AD0B-6BE9ECCEBB3F}|..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Common.csproj|d:\\actualizadorsubsistemas\\actualizarsubsistemas\\common\\constantes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3ECBC71-9F10-4DAD-98FC-22C2880A51E9}|ControlSistemasV2\\ControlSistemasV2.csproj|d:\\controlsistemasv2\\controlsistemasv2\\controlsistemasv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F3ECBC71-9F10-4DAD-98FC-22C2880A51E9}|ControlSistemasV2\\ControlSistemasV2.csproj|solutionrelative:controlsistemasv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F3ECBC71-9F10-4DAD-98FC-22C2880A51E9}|ControlSistemasV2\\ControlSistemasV2.csproj|d:\\controlsistemasv2\\controlsistemasv2\\controlsistemasv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{F3ECBC71-9F10-4DAD-98FC-22C2880A51E9}|ControlSistemasV2\\ControlSistemasV2.csproj|solutionrelative:controlsistemasv2\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5E905E38-FB30-4434-A806-D8C05A6E9755}|..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Logic\\Logic.csproj|d:\\actualizadorsubsistemas\\actualizarsubsistemas\\logic\\bgeneral.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F3244CB-D47A-4D2F-AD0B-6BE9ECCEBB3F}|..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Common.csproj|d:\\actualizadorsubsistemas\\actualizarsubsistemas\\common\\conneccion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "D:\\ControlSistemasV2\\ControlSistemasV2\\ControlSistemasV2\\Form1.cs",
+              "RelativeDocumentMoniker": "ControlSistemasV2\\Form1.cs",
+              "ToolTip": "D:\\ControlSistemasV2\\ControlSistemasV2\\ControlSistemasV2\\Form1.cs",
+              "RelativeToolTip": "ControlSistemasV2\\Form1.cs",
+              "ViewState": "AQIAAJoAAAAAAAAAAIA5wK4AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:22:13.562Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "D:\\ControlSistemasV2\\ControlSistemasV2\\ControlSistemasV2\\Form1.cs",
+              "RelativeDocumentMoniker": "ControlSistemasV2\\Form1.cs",
+              "ToolTip": "D:\\ControlSistemasV2\\ControlSistemasV2\\ControlSistemasV2\\Form1.cs [Dise\u00F1o]",
+              "RelativeToolTip": "ControlSistemasV2\\Form1.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:21:28.041Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Constantes.cs",
+              "DocumentMoniker": "D:\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Constantes.cs",
+              "RelativeDocumentMoniker": "..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Constantes.cs",
+              "ToolTip": "D:\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Constantes.cs",
+              "RelativeToolTip": "..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Constantes.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAApwBwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:19:23.727Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conneccion.cs",
+              "DocumentMoniker": "D:\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Conneccion.cs",
+              "RelativeDocumentMoniker": "..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Conneccion.cs",
+              "ToolTip": "D:\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Conneccion.cs",
+              "RelativeToolTip": "..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Common\\Conneccion.cs",
+              "ViewState": "AQIAABoAAAAAzczMzAwqwCgAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:17:52.889Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BGeneral.cs",
+              "DocumentMoniker": "D:\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Logic\\BGeneral.cs",
+              "RelativeDocumentMoniker": "..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Logic\\BGeneral.cs",
+              "ToolTip": "D:\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Logic\\BGeneral.cs",
+              "RelativeToolTip": "..\\..\\ActualizadorSubSistemas\\ActualizarSubSistemas\\Logic\\BGeneral.cs",
+              "ViewState": "AQIAAIQAAAAAAAAAAIA5wI0AAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-16T14:17:38.998Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
